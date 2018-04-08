@@ -1,0 +1,20 @@
+.item :hover{
+background-color: bisque;
+
+}
+
+a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 'bold';
+}
+.background1{
+    background-image: url("../../images/map.png");
+    background-repeat: repeat;
+    background-position: center 50px;
+    height: 100%;  
+    width: 100%;
+}

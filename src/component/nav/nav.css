@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+  font-size: 20px;
+   padding: 0px;
+    overflow: hidden;
+    background-color: rgb(250, 246, 246);
+   
+    width: 100%;
+
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+li {
+    float: left;
+    
+}
+li:first-child
+{
+    margin-left: 80px;
+   margin-right: 20px;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 'bold';
+}
+
+li NavLink :hover{
+    background-color: rgb(233, 31, 31);
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

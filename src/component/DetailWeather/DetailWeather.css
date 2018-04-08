@@ -1,0 +1,31 @@
+.background{
+    background-image: url("../../images/map.png");
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    height: 1000px;  
+    width: 100%;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black; 
+}
+.cardItem {
+    width:100% !important
+}
+
+.color{
+    background-color: rgb(197, 197, 197);
+}
+
+.itemList{
+    font-size: 17px;
+}
+
+.image{
+    margin: 30px;
+    height: 130px;
+    float: right;
+}
